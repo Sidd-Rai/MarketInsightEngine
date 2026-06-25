@@ -1,0 +1,11 @@
+.vscode
+Notes/
+TestFiles/
+# Ignore all Python cache folders anywhere
+__pycache__/
+*.pyc
+*.pyo
+.env
+.streamlit/
+.continue/
+.devcontainer/

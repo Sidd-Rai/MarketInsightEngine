@@ -1,0 +1,5 @@
+scikit-learn
+pandas
+ipykernel
+streamlit
+google-genai
