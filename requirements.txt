@@ -3,3 +3,6 @@ pandas
 ipykernel
 streamlit
 google-genai
+yfinance
+sqlalchemy
+python-dotenv
