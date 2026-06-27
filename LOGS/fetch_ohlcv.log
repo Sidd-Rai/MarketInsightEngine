@@ -841,3 +841,287 @@
 2026-06-28 02:38:39,693 - INFO - Stored 1 OHLCV records for NFLX, skipped 0
 2026-06-28 02:38:39,694 - INFO - Completed NFLX
 
+2026-06-28 02:43:38,023 - INFO - === Processing AAPL ===
+2026-06-28 02:43:38,029 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:38,029 - INFO - Fetching AAPL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:38,882 - INFO - Fetched 1 trading days for AAPL
+2026-06-28 02:43:38,902 - INFO - Stored 1 OHLCV records for AAPL, skipped 0
+2026-06-28 02:43:38,902 - INFO - Completed AAPL
+
+2026-06-28 02:43:38,902 - INFO - === Processing GOOGL ===
+2026-06-28 02:43:38,903 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:38,904 - INFO - Fetching GOOGL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:38,989 - INFO - Fetched 1 trading days for GOOGL
+2026-06-28 02:43:38,996 - INFO - Stored 1 OHLCV records for GOOGL, skipped 0
+2026-06-28 02:43:38,996 - INFO - Completed GOOGL
+
+2026-06-28 02:43:38,996 - INFO - === Processing MSFT ===
+2026-06-28 02:43:38,997 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:38,997 - INFO - Fetching MSFT OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:39,107 - INFO - Fetched 1 trading days for MSFT
+2026-06-28 02:43:39,115 - INFO - Stored 1 OHLCV records for MSFT, skipped 0
+2026-06-28 02:43:39,115 - INFO - Completed MSFT
+
+2026-06-28 02:43:39,115 - INFO - === Processing TSLA ===
+2026-06-28 02:43:39,116 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:39,116 - INFO - Fetching TSLA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:39,200 - INFO - Fetched 1 trading days for TSLA
+2026-06-28 02:43:39,209 - INFO - Stored 1 OHLCV records for TSLA, skipped 0
+2026-06-28 02:43:39,209 - INFO - Completed TSLA
+
+2026-06-28 02:43:39,209 - INFO - === Processing META ===
+2026-06-28 02:43:39,210 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:39,210 - INFO - Fetching META OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:39,292 - INFO - Fetched 1 trading days for META
+2026-06-28 02:43:39,300 - INFO - Stored 1 OHLCV records for META, skipped 0
+2026-06-28 02:43:39,300 - INFO - Completed META
+
+2026-06-28 02:43:39,300 - INFO - === Processing NVDA ===
+2026-06-28 02:43:39,301 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:39,301 - INFO - Fetching NVDA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:39,399 - INFO - Fetched 1 trading days for NVDA
+2026-06-28 02:43:39,405 - INFO - Stored 1 OHLCV records for NVDA, skipped 0
+2026-06-28 02:43:39,405 - INFO - Completed NVDA
+
+2026-06-28 02:43:39,405 - INFO - === Processing AMD ===
+2026-06-28 02:43:39,406 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:39,406 - INFO - Fetching AMD OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:39,489 - INFO - Fetched 1 trading days for AMD
+2026-06-28 02:43:39,498 - INFO - Stored 1 OHLCV records for AMD, skipped 0
+2026-06-28 02:43:39,498 - INFO - Completed AMD
+
+2026-06-28 02:43:39,499 - INFO - === Processing INTC ===
+2026-06-28 02:43:39,500 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:39,500 - INFO - Fetching INTC OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:39,610 - INFO - Fetched 1 trading days for INTC
+2026-06-28 02:43:39,615 - INFO - Stored 1 OHLCV records for INTC, skipped 0
+2026-06-28 02:43:39,615 - INFO - Completed INTC
+
+2026-06-28 02:43:39,616 - INFO - === Processing QCOM ===
+2026-06-28 02:43:39,616 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:39,617 - INFO - Fetching QCOM OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:39,725 - INFO - Fetched 1 trading days for QCOM
+2026-06-28 02:43:39,733 - INFO - Stored 1 OHLCV records for QCOM, skipped 0
+2026-06-28 02:43:39,733 - INFO - Completed QCOM
+
+2026-06-28 02:43:39,734 - INFO - === Processing CRM ===
+2026-06-28 02:43:39,734 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:39,735 - INFO - Fetching CRM OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:39,815 - INFO - Fetched 1 trading days for CRM
+2026-06-28 02:43:39,822 - INFO - Stored 1 OHLCV records for CRM, skipped 0
+2026-06-28 02:43:39,823 - INFO - Completed CRM
+
+2026-06-28 02:43:39,823 - INFO - === Processing PYPL ===
+2026-06-28 02:43:39,824 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:39,824 - INFO - Fetching PYPL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:39,905 - INFO - Fetched 1 trading days for PYPL
+2026-06-28 02:43:39,912 - INFO - Stored 1 OHLCV records for PYPL, skipped 0
+2026-06-28 02:43:39,912 - INFO - Completed PYPL
+
+2026-06-28 02:43:39,912 - INFO - === Processing SQ ===
+2026-06-28 02:43:39,914 - INFO - No existing data for SQ. Fetching default 30 days.
+2026-06-28 02:43:39,914 - INFO - Fetching SQ OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 02:43:40,434 - ERROR - $SQ: possibly delisted; no timezone found
+2026-06-28 02:43:40,436 - INFO - Fetched 0 trading days for SQ
+2026-06-28 02:43:40,436 - INFO - Completed SQ
+
+2026-06-28 02:43:40,437 - INFO - === Processing COIN ===
+2026-06-28 02:43:40,439 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:40,439 - INFO - Fetching COIN OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:40,521 - INFO - Fetched 1 trading days for COIN
+2026-06-28 02:43:40,539 - INFO - Stored 1 OHLCV records for COIN, skipped 0
+2026-06-28 02:43:40,539 - INFO - Completed COIN
+
+2026-06-28 02:43:40,539 - INFO - === Processing MSTR ===
+2026-06-28 02:43:40,540 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:40,540 - INFO - Fetching MSTR OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:40,627 - INFO - Fetched 1 trading days for MSTR
+2026-06-28 02:43:40,635 - INFO - Stored 1 OHLCV records for MSTR, skipped 0
+2026-06-28 02:43:40,635 - INFO - Completed MSTR
+
+2026-06-28 02:43:40,635 - INFO - === Processing SNOW ===
+2026-06-28 02:43:40,636 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:40,636 - INFO - Fetching SNOW OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:40,714 - INFO - Fetched 1 trading days for SNOW
+2026-06-28 02:43:40,721 - INFO - Stored 1 OHLCV records for SNOW, skipped 0
+2026-06-28 02:43:40,721 - INFO - Completed SNOW
+
+2026-06-28 02:43:40,722 - INFO - === Processing OKTA ===
+2026-06-28 02:43:40,723 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:40,725 - INFO - Fetching OKTA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:40,807 - INFO - Fetched 1 trading days for OKTA
+2026-06-28 02:43:40,815 - INFO - Stored 1 OHLCV records for OKTA, skipped 0
+2026-06-28 02:43:40,815 - INFO - Completed OKTA
+
+2026-06-28 02:43:40,816 - INFO - === Processing NET ===
+2026-06-28 02:43:40,817 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:40,817 - INFO - Fetching NET OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:40,899 - INFO - Fetched 1 trading days for NET
+2026-06-28 02:43:40,907 - INFO - Stored 1 OHLCV records for NET, skipped 0
+2026-06-28 02:43:40,907 - INFO - Completed NET
+
+2026-06-28 02:43:40,907 - INFO - === Processing UBER ===
+2026-06-28 02:43:40,909 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:40,909 - INFO - Fetching UBER OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:40,995 - INFO - Fetched 1 trading days for UBER
+2026-06-28 02:43:41,002 - INFO - Stored 1 OHLCV records for UBER, skipped 0
+2026-06-28 02:43:41,003 - INFO - Completed UBER
+
+2026-06-28 02:43:41,003 - INFO - === Processing AMZN ===
+2026-06-28 02:43:41,004 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:41,005 - INFO - Fetching AMZN OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:41,083 - INFO - Fetched 1 trading days for AMZN
+2026-06-28 02:43:41,091 - INFO - Stored 1 OHLCV records for AMZN, skipped 0
+2026-06-28 02:43:41,091 - INFO - Completed AMZN
+
+2026-06-28 02:43:41,091 - INFO - === Processing NFLX ===
+2026-06-28 02:43:41,093 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:43:41,093 - INFO - Fetching NFLX OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:43:41,180 - INFO - Fetched 1 trading days for NFLX
+2026-06-28 02:43:41,187 - INFO - Stored 1 OHLCV records for NFLX, skipped 0
+2026-06-28 02:43:41,187 - INFO - Completed NFLX
+
+2026-06-28 02:43:41,188 - INFO - === Processing AAPL ===
+2026-06-28 02:43:41,188 - INFO - Fetching NewsAPI articles for AAPL
+2026-06-28 02:43:41,766 - INFO - Fetched 72 articles for AAPL
+2026-06-28 02:43:41,766 - INFO - Fetching Finnhub news for AAPL
+2026-06-28 02:43:42,523 - INFO - Fetched 14 news items for AAPL
+2026-06-28 02:43:42,554 - INFO - Stored 1 new articles, skipped 13 duplicates
+2026-06-28 02:43:42,554 - INFO - Completed AAPL
+
+2026-06-28 02:43:42,554 - INFO - === Processing GOOGL ===
+2026-06-28 02:43:42,554 - INFO - Fetching NewsAPI articles for GOOGL
+2026-06-28 02:43:43,045 - INFO - Fetched 87 articles for GOOGL
+2026-06-28 02:43:43,046 - INFO - Fetching Finnhub news for GOOGL
+2026-06-28 02:43:43,388 - INFO - Fetched 29 news items for GOOGL
+2026-06-28 02:43:43,407 - INFO - Stored 0 new articles, skipped 30 duplicates
+2026-06-28 02:43:43,407 - INFO - Completed GOOGL
+
+2026-06-28 02:43:43,407 - INFO - === Processing MSFT ===
+2026-06-28 02:43:43,407 - INFO - Fetching NewsAPI articles for MSFT
+2026-06-28 02:43:43,865 - INFO - Fetched 100 articles for MSFT
+2026-06-28 02:43:43,865 - INFO - Fetching Finnhub news for MSFT
+2026-06-28 02:43:44,210 - INFO - Fetched 21 news items for MSFT
+2026-06-28 02:43:44,230 - INFO - Stored 0 new articles, skipped 21 duplicates
+2026-06-28 02:43:44,230 - INFO - Completed MSFT
+
+2026-06-28 02:43:44,231 - INFO - === Processing NVDA ===
+2026-06-28 02:43:44,231 - INFO - Fetching NewsAPI articles for NVDA
+2026-06-28 02:43:44,683 - INFO - Fetched 100 articles for NVDA
+2026-06-28 02:43:44,684 - INFO - Fetching Finnhub news for NVDA
+2026-06-28 02:43:45,023 - INFO - Fetched 93 news items for NVDA
+2026-06-28 02:43:45,134 - INFO - Stored 82 new articles, skipped 11 duplicates
+2026-06-28 02:43:45,134 - INFO - Completed NVDA
+
+2026-06-28 02:43:45,135 - INFO - === Processing AMD ===
+2026-06-28 02:43:45,135 - INFO - Fetching NewsAPI articles for AMD
+2026-06-28 02:43:45,536 - INFO - Fetched 100 articles for AMD
+2026-06-28 02:43:45,537 - INFO - Fetching Finnhub news for AMD
+2026-06-28 02:43:45,869 - INFO - Fetched 4 news items for AMD
+2026-06-28 02:43:45,890 - INFO - Stored 3 new articles, skipped 1 duplicates
+2026-06-28 02:43:45,891 - INFO - Completed AMD
+
+2026-06-28 02:43:45,891 - INFO - === Processing INTC ===
+2026-06-28 02:43:45,891 - INFO - Fetching NewsAPI articles for INTC
+2026-06-28 02:43:46,321 - INFO - Fetched 51 articles for INTC
+2026-06-28 02:43:46,322 - INFO - Fetching Finnhub news for INTC
+2026-06-28 02:43:46,658 - INFO - Fetched 9 news items for INTC
+2026-06-28 02:43:46,684 - INFO - Stored 3 new articles, skipped 6 duplicates
+2026-06-28 02:43:46,684 - INFO - Completed INTC
+
+2026-06-28 02:43:46,685 - INFO - === Processing QCOM ===
+2026-06-28 02:43:46,685 - INFO - Fetching NewsAPI articles for QCOM
+2026-06-28 02:43:47,009 - INFO - Fetched 44 articles for QCOM
+2026-06-28 02:43:47,010 - INFO - Fetching Finnhub news for QCOM
+2026-06-28 02:43:47,433 - INFO - Fetched 8 news items for QCOM
+2026-06-28 02:43:47,458 - INFO - Stored 5 new articles, skipped 3 duplicates
+2026-06-28 02:43:47,458 - INFO - Completed QCOM
+
+2026-06-28 02:43:47,458 - INFO - === Processing CRM ===
+2026-06-28 02:43:47,458 - INFO - Fetching NewsAPI articles for CRM
+2026-06-28 02:43:47,959 - INFO - Fetched 100 articles for CRM
+2026-06-28 02:43:47,960 - INFO - Fetching Finnhub news for CRM
+2026-06-28 02:43:48,313 - INFO - Fetched 3 news items for CRM
+2026-06-28 02:43:48,333 - INFO - Stored 2 new articles, skipped 1 duplicates
+2026-06-28 02:43:48,334 - INFO - Completed CRM
+
+2026-06-28 02:43:48,334 - INFO - === Processing PYPL ===
+2026-06-28 02:43:48,334 - INFO - Fetching NewsAPI articles for PYPL
+2026-06-28 02:43:48,675 - INFO - Fetched 5 articles for PYPL
+2026-06-28 02:43:48,676 - INFO - Fetching Finnhub news for PYPL
+2026-06-28 02:43:49,017 - INFO - Fetched 1 news items for PYPL
+2026-06-28 02:43:49,020 - INFO - Stored 0 new articles, skipped 1 duplicates
+2026-06-28 02:43:49,020 - INFO - Completed PYPL
+
+2026-06-28 02:43:49,020 - INFO - === Processing SQ ===
+2026-06-28 02:43:49,021 - INFO - Fetching NewsAPI articles for SQ
+2026-06-28 02:43:49,486 - INFO - Fetched 99 articles for SQ
+2026-06-28 02:43:49,486 - INFO - Fetching Finnhub news for SQ
+2026-06-28 02:43:49,825 - INFO - Fetched 0 news items for SQ
+2026-06-28 02:43:49,843 - INFO - Stored 2 new articles, skipped 0 duplicates
+2026-06-28 02:43:49,843 - INFO - Completed SQ
+
+2026-06-28 02:43:49,843 - INFO - === Processing COIN ===
+2026-06-28 02:43:49,843 - INFO - Fetching NewsAPI articles for COIN
+2026-06-28 02:43:50,314 - INFO - Fetched 98 articles for COIN
+2026-06-28 02:43:50,315 - INFO - Fetching Finnhub news for COIN
+2026-06-28 02:43:50,662 - INFO - Fetched 4 news items for COIN
+2026-06-28 02:43:50,682 - INFO - Stored 3 new articles, skipped 2 duplicates
+2026-06-28 02:43:50,682 - INFO - Completed COIN
+
+2026-06-28 02:43:50,683 - INFO - === Processing MSTR ===
+2026-06-28 02:43:50,683 - INFO - Fetching NewsAPI articles for MSTR
+2026-06-28 02:43:51,134 - INFO - Fetched 82 articles for MSTR
+2026-06-28 02:43:51,135 - INFO - Fetching Finnhub news for MSTR
+2026-06-28 02:43:51,463 - INFO - Fetched 7 news items for MSTR
+2026-06-28 02:43:51,489 - INFO - Stored 8 new articles, skipped 0 duplicates
+2026-06-28 02:43:51,489 - INFO - Completed MSTR
+
+2026-06-28 02:43:51,490 - INFO - === Processing SNOW ===
+2026-06-28 02:43:51,490 - INFO - Fetching NewsAPI articles for SNOW
+2026-06-28 02:43:51,954 - INFO - Fetched 93 articles for SNOW
+2026-06-28 02:43:51,954 - INFO - Fetching Finnhub news for SNOW
+2026-06-28 02:43:52,300 - INFO - Fetched 0 news items for SNOW
+2026-06-28 02:43:52,301 - INFO - Stored 0 new articles, skipped 0 duplicates
+2026-06-28 02:43:52,301 - INFO - Completed SNOW
+
+2026-06-28 02:43:52,301 - INFO - === Processing OKTA ===
+2026-06-28 02:43:52,302 - INFO - Fetching NewsAPI articles for OKTA
+2026-06-28 02:43:52,667 - INFO - Fetched 38 articles for OKTA
+2026-06-28 02:43:52,668 - INFO - Fetching Finnhub news for OKTA
+2026-06-28 02:43:54,102 - INFO - Fetched 0 news items for OKTA
+2026-06-28 02:43:54,103 - INFO - Stored 0 new articles, skipped 0 duplicates
+2026-06-28 02:43:54,103 - INFO - Completed OKTA
+
+2026-06-28 02:43:54,104 - INFO - === Processing NET ===
+2026-06-28 02:43:54,104 - INFO - Fetching NewsAPI articles for NET
+2026-06-28 02:43:54,821 - INFO - Fetched 98 articles for NET
+2026-06-28 02:43:54,822 - INFO - Fetching Finnhub news for NET
+2026-06-28 02:43:55,158 - INFO - Fetched 2 news items for NET
+2026-06-28 02:43:55,177 - INFO - Stored 2 new articles, skipped 0 duplicates
+2026-06-28 02:43:55,177 - INFO - Completed NET
+
+2026-06-28 02:43:55,177 - INFO - === Processing UBER ===
+2026-06-28 02:43:55,177 - INFO - Fetching NewsAPI articles for UBER
+2026-06-28 02:43:55,633 - INFO - Fetched 97 articles for UBER
+2026-06-28 02:43:55,633 - INFO - Fetching Finnhub news for UBER
+2026-06-28 02:43:55,967 - INFO - Fetched 5 news items for UBER
+2026-06-28 02:43:55,994 - INFO - Stored 7 new articles, skipped 1 duplicates
+2026-06-28 02:43:55,994 - INFO - Completed UBER
+
+2026-06-28 02:43:55,994 - INFO - === Processing AMZN ===
+2026-06-28 02:43:55,994 - INFO - Fetching NewsAPI articles for AMZN
+2026-06-28 02:43:56,452 - INFO - Fetched 100 articles for AMZN
+2026-06-28 02:43:56,453 - INFO - Fetching Finnhub news for AMZN
+2026-06-28 02:43:56,805 - INFO - Fetched 31 news items for AMZN
+2026-06-28 02:43:56,853 - INFO - Stored 16 new articles, skipped 15 duplicates
+2026-06-28 02:43:56,854 - INFO - Completed AMZN
+
+2026-06-28 02:43:56,854 - INFO - === Processing NFLX ===
+2026-06-28 02:43:56,854 - INFO - Fetching NewsAPI articles for NFLX
+2026-06-28 02:43:57,176 - INFO - Fetched 16 articles for NFLX
+2026-06-28 02:43:57,177 - INFO - Fetching Finnhub news for NFLX
+2026-06-28 02:43:57,517 - INFO - Fetched 2 news items for NFLX
+2026-06-28 02:43:57,521 - INFO - Stored 0 new articles, skipped 2 duplicates
+2026-06-28 02:43:57,521 - INFO - Completed NFLX
+
