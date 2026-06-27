@@ -1,9 +1,10 @@
 from sqlalchemy import create_engine, Column, Integer, String, DateTime, Float, BigInteger
 from sqlalchemy.ext.declarative import declarative_base
 from datetime import datetime
+from src.config import DATABASE_URL
 
 # Added check_same_thread=False for safety
-engine = create_engine("sqlite:///stock_data.db", connect_args={"check_same_thread": False})
+engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 Base = declarative_base()
 
 class Article(Base):

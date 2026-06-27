@@ -1,0 +1,703 @@
+2026-06-26 00:10:05,123 - INFO - === Processing AAPL ===
+2026-06-26 00:10:05,124 - INFO - Fetching AAPL OHLCV data from 2026-05-27 to 2026-06-26
+2026-06-26 00:10:06,211 - INFO - Fetched 21 trading days for AAPL
+2026-06-26 00:10:06,222 - ERROR - Error storing OHLCV for AAPL on 2026-05-27 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,224 - ERROR - Error storing OHLCV for AAPL on 2026-05-28 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,225 - ERROR - Error storing OHLCV for AAPL on 2026-05-29 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,226 - ERROR - Error storing OHLCV for AAPL on 2026-06-01 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,227 - ERROR - Error storing OHLCV for AAPL on 2026-06-02 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,229 - ERROR - Error storing OHLCV for AAPL on 2026-06-03 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,230 - ERROR - Error storing OHLCV for AAPL on 2026-06-04 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,231 - ERROR - Error storing OHLCV for AAPL on 2026-06-05 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,232 - ERROR - Error storing OHLCV for AAPL on 2026-06-08 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,233 - ERROR - Error storing OHLCV for AAPL on 2026-06-09 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,234 - ERROR - Error storing OHLCV for AAPL on 2026-06-10 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,235 - ERROR - Error storing OHLCV for AAPL on 2026-06-11 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,236 - ERROR - Error storing OHLCV for AAPL on 2026-06-12 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,237 - ERROR - Error storing OHLCV for AAPL on 2026-06-15 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,238 - ERROR - Error storing OHLCV for AAPL on 2026-06-16 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,239 - ERROR - Error storing OHLCV for AAPL on 2026-06-17 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,240 - ERROR - Error storing OHLCV for AAPL on 2026-06-18 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,241 - ERROR - Error storing OHLCV for AAPL on 2026-06-22 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,242 - ERROR - Error storing OHLCV for AAPL on 2026-06-23 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,243 - ERROR - Error storing OHLCV for AAPL on 2026-06-24 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,244 - ERROR - Error storing OHLCV for AAPL on 2026-06-25 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,245 - INFO - Stored 0 OHLCV records for AAPL, skipped 0
+2026-06-26 00:10:06,245 - INFO - Completed AAPL
+
+2026-06-26 00:10:06,245 - INFO - === Processing GOOGL ===
+2026-06-26 00:10:06,245 - INFO - Fetching GOOGL OHLCV data from 2026-05-27 to 2026-06-26
+2026-06-26 00:10:06,540 - INFO - Fetched 21 trading days for GOOGL
+2026-06-26 00:10:06,542 - ERROR - Error storing OHLCV for GOOGL on 2026-05-27 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,543 - ERROR - Error storing OHLCV for GOOGL on 2026-05-28 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,544 - ERROR - Error storing OHLCV for GOOGL on 2026-05-29 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,545 - ERROR - Error storing OHLCV for GOOGL on 2026-06-01 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,546 - ERROR - Error storing OHLCV for GOOGL on 2026-06-02 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,548 - ERROR - Error storing OHLCV for GOOGL on 2026-06-03 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,548 - ERROR - Error storing OHLCV for GOOGL on 2026-06-04 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,549 - ERROR - Error storing OHLCV for GOOGL on 2026-06-05 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,550 - ERROR - Error storing OHLCV for GOOGL on 2026-06-08 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,551 - ERROR - Error storing OHLCV for GOOGL on 2026-06-09 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,552 - ERROR - Error storing OHLCV for GOOGL on 2026-06-10 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,553 - ERROR - Error storing OHLCV for GOOGL on 2026-06-11 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,554 - ERROR - Error storing OHLCV for GOOGL on 2026-06-12 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,555 - ERROR - Error storing OHLCV for GOOGL on 2026-06-15 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,556 - ERROR - Error storing OHLCV for GOOGL on 2026-06-16 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,557 - ERROR - Error storing OHLCV for GOOGL on 2026-06-17 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,558 - ERROR - Error storing OHLCV for GOOGL on 2026-06-18 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,559 - ERROR - Error storing OHLCV for GOOGL on 2026-06-22 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,561 - ERROR - Error storing OHLCV for GOOGL on 2026-06-23 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,563 - ERROR - Error storing OHLCV for GOOGL on 2026-06-24 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,564 - ERROR - Error storing OHLCV for GOOGL on 2026-06-25 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,565 - INFO - Stored 0 OHLCV records for GOOGL, skipped 0
+2026-06-26 00:10:06,565 - INFO - Completed GOOGL
+
+2026-06-26 00:10:06,565 - INFO - === Processing MSFT ===
+2026-06-26 00:10:06,565 - INFO - Fetching MSFT OHLCV data from 2026-05-27 to 2026-06-26
+2026-06-26 00:10:06,895 - INFO - Fetched 21 trading days for MSFT
+2026-06-26 00:10:06,899 - ERROR - Error storing OHLCV for MSFT on 2026-05-27 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,901 - ERROR - Error storing OHLCV for MSFT on 2026-05-28 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,902 - ERROR - Error storing OHLCV for MSFT on 2026-05-29 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,904 - ERROR - Error storing OHLCV for MSFT on 2026-06-01 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,906 - ERROR - Error storing OHLCV for MSFT on 2026-06-02 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,908 - ERROR - Error storing OHLCV for MSFT on 2026-06-03 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,910 - ERROR - Error storing OHLCV for MSFT on 2026-06-04 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,911 - ERROR - Error storing OHLCV for MSFT on 2026-06-05 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,912 - ERROR - Error storing OHLCV for MSFT on 2026-06-08 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,913 - ERROR - Error storing OHLCV for MSFT on 2026-06-09 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,914 - ERROR - Error storing OHLCV for MSFT on 2026-06-10 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,915 - ERROR - Error storing OHLCV for MSFT on 2026-06-11 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,916 - ERROR - Error storing OHLCV for MSFT on 2026-06-12 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,917 - ERROR - Error storing OHLCV for MSFT on 2026-06-15 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,917 - ERROR - Error storing OHLCV for MSFT on 2026-06-16 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,919 - ERROR - Error storing OHLCV for MSFT on 2026-06-17 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,919 - ERROR - Error storing OHLCV for MSFT on 2026-06-18 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,921 - ERROR - Error storing OHLCV for MSFT on 2026-06-22 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,922 - ERROR - Error storing OHLCV for MSFT on 2026-06-23 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,923 - ERROR - Error storing OHLCV for MSFT on 2026-06-24 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,924 - ERROR - Error storing OHLCV for MSFT on 2026-06-25 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:06,924 - INFO - Stored 0 OHLCV records for MSFT, skipped 0
+2026-06-26 00:10:06,924 - INFO - Completed MSFT
+
+2026-06-26 00:10:06,924 - INFO - === Processing TSLA ===
+2026-06-26 00:10:06,924 - INFO - Fetching TSLA OHLCV data from 2026-05-27 to 2026-06-26
+2026-06-26 00:10:07,201 - INFO - Fetched 21 trading days for TSLA
+2026-06-26 00:10:07,204 - ERROR - Error storing OHLCV for TSLA on 2026-05-27 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,206 - ERROR - Error storing OHLCV for TSLA on 2026-05-28 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,208 - ERROR - Error storing OHLCV for TSLA on 2026-05-29 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,209 - ERROR - Error storing OHLCV for TSLA on 2026-06-01 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,210 - ERROR - Error storing OHLCV for TSLA on 2026-06-02 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,211 - ERROR - Error storing OHLCV for TSLA on 2026-06-03 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,212 - ERROR - Error storing OHLCV for TSLA on 2026-06-04 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,213 - ERROR - Error storing OHLCV for TSLA on 2026-06-05 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,215 - ERROR - Error storing OHLCV for TSLA on 2026-06-08 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,217 - ERROR - Error storing OHLCV for TSLA on 2026-06-09 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,219 - ERROR - Error storing OHLCV for TSLA on 2026-06-10 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,220 - ERROR - Error storing OHLCV for TSLA on 2026-06-11 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,221 - ERROR - Error storing OHLCV for TSLA on 2026-06-12 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,222 - ERROR - Error storing OHLCV for TSLA on 2026-06-15 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,223 - ERROR - Error storing OHLCV for TSLA on 2026-06-16 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,224 - ERROR - Error storing OHLCV for TSLA on 2026-06-17 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,225 - ERROR - Error storing OHLCV for TSLA on 2026-06-18 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,226 - ERROR - Error storing OHLCV for TSLA on 2026-06-22 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,228 - ERROR - Error storing OHLCV for TSLA on 2026-06-23 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,228 - ERROR - Error storing OHLCV for TSLA on 2026-06-24 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,230 - ERROR - Error storing OHLCV for TSLA on 2026-06-25 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,230 - INFO - Stored 0 OHLCV records for TSLA, skipped 0
+2026-06-26 00:10:07,230 - INFO - Completed TSLA
+
+2026-06-26 00:10:07,230 - INFO - === Processing META ===
+2026-06-26 00:10:07,231 - INFO - Fetching META OHLCV data from 2026-05-27 to 2026-06-26
+2026-06-26 00:10:07,556 - INFO - Fetched 21 trading days for META
+2026-06-26 00:10:07,558 - ERROR - Error storing OHLCV for META on 2026-05-27 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,559 - ERROR - Error storing OHLCV for META on 2026-05-28 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,561 - ERROR - Error storing OHLCV for META on 2026-05-29 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,563 - ERROR - Error storing OHLCV for META on 2026-06-01 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,565 - ERROR - Error storing OHLCV for META on 2026-06-02 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,566 - ERROR - Error storing OHLCV for META on 2026-06-03 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,568 - ERROR - Error storing OHLCV for META on 2026-06-04 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,569 - ERROR - Error storing OHLCV for META on 2026-06-05 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,570 - ERROR - Error storing OHLCV for META on 2026-06-08 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,571 - ERROR - Error storing OHLCV for META on 2026-06-09 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,572 - ERROR - Error storing OHLCV for META on 2026-06-10 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,573 - ERROR - Error storing OHLCV for META on 2026-06-11 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,573 - ERROR - Error storing OHLCV for META on 2026-06-12 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,574 - ERROR - Error storing OHLCV for META on 2026-06-15 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,575 - ERROR - Error storing OHLCV for META on 2026-06-16 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,576 - ERROR - Error storing OHLCV for META on 2026-06-17 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,577 - ERROR - Error storing OHLCV for META on 2026-06-18 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,578 - ERROR - Error storing OHLCV for META on 2026-06-22 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,580 - ERROR - Error storing OHLCV for META on 2026-06-23 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,581 - ERROR - Error storing OHLCV for META on 2026-06-24 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,582 - ERROR - Error storing OHLCV for META on 2026-06-25 00:00:00: float() argument must be a string or a real number, not 'Series'
+2026-06-26 00:10:07,583 - INFO - Stored 0 OHLCV records for META, skipped 0
+2026-06-26 00:10:07,583 - INFO - Completed META
+
+2026-06-26 00:10:07,583 - INFO - OHLCV fetch completed
+2026-06-26 00:13:58,237 - INFO - === Processing AAPL ===
+2026-06-26 00:13:58,238 - INFO - Fetching AAPL OHLCV data from 2026-05-27 to 2026-06-26
+2026-06-26 00:13:59,165 - INFO - Fetched 21 trading days for AAPL
+2026-06-26 00:13:59,204 - INFO - Stored 21 OHLCV records for AAPL, skipped 0
+2026-06-26 00:13:59,205 - INFO - Completed AAPL
+
+2026-06-26 00:13:59,205 - INFO - === Processing GOOGL ===
+2026-06-26 00:13:59,205 - INFO - Fetching GOOGL OHLCV data from 2026-05-27 to 2026-06-26
+2026-06-26 00:13:59,346 - INFO - Fetched 21 trading days for GOOGL
+2026-06-26 00:13:59,381 - INFO - Stored 21 OHLCV records for GOOGL, skipped 0
+2026-06-26 00:13:59,381 - INFO - Completed GOOGL
+
+2026-06-26 00:13:59,381 - INFO - === Processing MSFT ===
+2026-06-26 00:13:59,381 - INFO - Fetching MSFT OHLCV data from 2026-05-27 to 2026-06-26
+2026-06-26 00:13:59,543 - INFO - Fetched 21 trading days for MSFT
+2026-06-26 00:13:59,571 - INFO - Stored 21 OHLCV records for MSFT, skipped 0
+2026-06-26 00:13:59,571 - INFO - Completed MSFT
+
+2026-06-26 00:13:59,572 - INFO - === Processing TSLA ===
+2026-06-26 00:13:59,572 - INFO - Fetching TSLA OHLCV data from 2026-05-27 to 2026-06-26
+2026-06-26 00:13:59,718 - INFO - Fetched 21 trading days for TSLA
+2026-06-26 00:13:59,751 - INFO - Stored 21 OHLCV records for TSLA, skipped 0
+2026-06-26 00:13:59,752 - INFO - Completed TSLA
+
+2026-06-26 00:13:59,752 - INFO - === Processing META ===
+2026-06-26 00:13:59,752 - INFO - Fetching META OHLCV data from 2026-05-27 to 2026-06-26
+2026-06-26 00:13:59,898 - INFO - Fetched 21 trading days for META
+2026-06-26 00:13:59,932 - INFO - Stored 21 OHLCV records for META, skipped 0
+2026-06-26 00:13:59,932 - INFO - Completed META
+
+2026-06-26 00:13:59,933 - INFO - OHLCV fetch completed
+2026-06-27 17:24:38,898 - INFO - === Processing AAPL ===
+2026-06-27 17:24:38,898 - INFO - Fetching AAPL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:24:39,101 - ERROR - Failed to fetch AAPL: Too Many Requests. Rate limited. Try after a while.
+2026-06-27 17:24:39,103 - WARNING - No data to store for AAPL
+2026-06-27 17:24:39,103 - INFO - Completed AAPL
+
+2026-06-27 17:24:39,104 - INFO - === Processing GOOGL ===
+2026-06-27 17:24:39,104 - INFO - Fetching GOOGL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:24:39,424 - ERROR - Failed to fetch GOOGL: Too Many Requests. Rate limited. Try after a while.
+2026-06-27 17:24:39,428 - WARNING - No data to store for GOOGL
+2026-06-27 17:24:39,428 - INFO - Completed GOOGL
+
+2026-06-27 17:24:39,429 - INFO - === Processing MSFT ===
+2026-06-27 17:24:39,429 - INFO - Fetching MSFT OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:24:39,731 - ERROR - Failed to fetch MSFT: Too Many Requests. Rate limited. Try after a while.
+2026-06-27 17:24:39,735 - WARNING - No data to store for MSFT
+2026-06-27 17:24:39,736 - INFO - Completed MSFT
+
+2026-06-27 17:24:39,736 - INFO - === Processing TSLA ===
+2026-06-27 17:24:39,737 - INFO - Fetching TSLA OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:24:40,031 - ERROR - Failed to fetch TSLA: Too Many Requests. Rate limited. Try after a while.
+2026-06-27 17:24:40,035 - WARNING - No data to store for TSLA
+2026-06-27 17:24:40,035 - INFO - Completed TSLA
+
+2026-06-27 17:24:40,035 - INFO - === Processing META ===
+2026-06-27 17:24:40,036 - INFO - Fetching META OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:24:40,348 - ERROR - Failed to fetch META: Too Many Requests. Rate limited. Try after a while.
+2026-06-27 17:24:40,351 - WARNING - No data to store for META
+2026-06-27 17:24:40,352 - INFO - Completed META
+
+2026-06-27 17:24:40,352 - INFO - OHLCV fetch completed
+2026-06-27 17:25:10,873 - INFO - === Processing AAPL ===
+2026-06-27 17:25:10,873 - INFO - Fetching AAPL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:26:12,136 - ERROR - $AAPL: possibly delisted; no price data found  (1d 2026-05-28 -> 2026-06-27)
+2026-06-27 17:26:12,162 - INFO - Fetched 0 trading days for AAPL
+2026-06-27 17:26:12,163 - WARNING - No data to store for AAPL
+2026-06-27 17:26:12,163 - INFO - Completed AAPL
+
+2026-06-27 17:26:12,163 - INFO - === Processing GOOGL ===
+2026-06-27 17:26:12,163 - INFO - Fetching GOOGL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:28:27,285 - INFO - === Processing AAPL ===
+2026-06-27 17:28:27,285 - INFO - Fetching AAPL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:29:28,299 - ERROR - $AAPL: possibly delisted; no price data found  (1d 2026-05-28 -> 2026-06-27)
+2026-06-27 17:29:28,308 - INFO - Fetched 0 trading days for AAPL
+2026-06-27 17:29:28,309 - WARNING - No data to store for AAPL
+2026-06-27 17:29:28,309 - INFO - Completed AAPL
+
+2026-06-27 17:29:28,309 - INFO - === Processing GOOGL ===
+2026-06-27 17:29:28,310 - INFO - Fetching GOOGL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:29:37,552 - INFO - === Processing AAPL ===
+2026-06-27 17:29:37,552 - INFO - Fetching AAPL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:30:38,582 - ERROR - $AAPL: possibly delisted; no price data found  (1d 2026-05-28 -> 2026-06-27)
+2026-06-27 17:30:38,590 - INFO - Fetched 0 trading days for AAPL
+2026-06-27 17:30:38,590 - WARNING - No data to store for AAPL
+2026-06-27 17:30:38,591 - INFO - Completed AAPL
+
+2026-06-27 17:30:38,591 - INFO - === Processing GOOGL ===
+2026-06-27 17:30:38,591 - INFO - Fetching GOOGL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:32:26,288 - INFO - === Processing AAPL ===
+2026-06-27 17:32:26,289 - INFO - Fetching AAPL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:33:27,317 - ERROR - $AAPL: possibly delisted; no price data found  (1d 2026-05-28 -> 2026-06-27)
+2026-06-27 17:33:27,324 - INFO - Fetched 0 trading days for AAPL
+2026-06-27 17:33:27,324 - WARNING - No data to store for AAPL
+2026-06-27 17:33:27,324 - INFO - Completed AAPL
+
+2026-06-27 17:33:27,325 - INFO - === Processing GOOGL ===
+2026-06-27 17:33:27,325 - INFO - Fetching GOOGL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:34:28,335 - ERROR - $GOOGL: possibly delisted; no price data found  (1d 2026-05-28 -> 2026-06-27)
+2026-06-27 17:34:28,339 - INFO - Fetched 0 trading days for GOOGL
+2026-06-27 17:34:28,339 - WARNING - No data to store for GOOGL
+2026-06-27 17:34:28,339 - INFO - Completed GOOGL
+
+2026-06-27 17:34:28,340 - INFO - === Processing MSFT ===
+2026-06-27 17:34:28,340 - INFO - Fetching MSFT OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:35:29,347 - ERROR - $MSFT: possibly delisted; no price data found  (1d 2026-05-28 -> 2026-06-27)
+2026-06-27 17:35:29,351 - INFO - Fetched 0 trading days for MSFT
+2026-06-27 17:35:29,352 - WARNING - No data to store for MSFT
+2026-06-27 17:35:29,352 - INFO - Completed MSFT
+
+2026-06-27 17:35:29,353 - INFO - === Processing TSLA ===
+2026-06-27 17:35:29,353 - INFO - Fetching TSLA OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:36:30,295 - ERROR - $TSLA: possibly delisted; no price data found  (1d 2026-05-28 -> 2026-06-27)
+2026-06-27 17:36:30,299 - INFO - Fetched 0 trading days for TSLA
+2026-06-27 17:36:30,300 - WARNING - No data to store for TSLA
+2026-06-27 17:36:30,300 - INFO - Completed TSLA
+
+2026-06-27 17:36:30,300 - INFO - === Processing META ===
+2026-06-27 17:36:30,300 - INFO - Fetching META OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:37:31,333 - ERROR - $META: possibly delisted; no price data found  (1d 2026-05-28 -> 2026-06-27)
+2026-06-27 17:37:31,336 - INFO - Fetched 0 trading days for META
+2026-06-27 17:37:31,336 - WARNING - No data to store for META
+2026-06-27 17:37:31,336 - INFO - Completed META
+
+2026-06-27 17:37:31,336 - INFO - OHLCV fetch completed
+2026-06-27 17:43:55,740 - INFO - === Processing AAPL ===
+2026-06-27 17:43:55,741 - INFO - Fetching AAPL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:43:56,528 - INFO - Fetched 21 trading days for AAPL
+2026-06-27 17:43:56,567 - INFO - Stored 21 OHLCV records for AAPL, skipped 0
+2026-06-27 17:43:56,567 - INFO - Completed AAPL
+
+2026-06-27 17:43:56,567 - INFO - === Processing GOOGL ===
+2026-06-27 17:43:56,567 - INFO - Fetching GOOGL OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:43:56,675 - INFO - Fetched 21 trading days for GOOGL
+2026-06-27 17:43:56,701 - INFO - Stored 21 OHLCV records for GOOGL, skipped 0
+2026-06-27 17:43:56,702 - INFO - Completed GOOGL
+
+2026-06-27 17:43:56,702 - INFO - === Processing MSFT ===
+2026-06-27 17:43:56,702 - INFO - Fetching MSFT OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:43:56,813 - INFO - Fetched 21 trading days for MSFT
+2026-06-27 17:43:56,850 - INFO - Stored 21 OHLCV records for MSFT, skipped 0
+2026-06-27 17:43:56,850 - INFO - Completed MSFT
+
+2026-06-27 17:43:56,850 - INFO - === Processing TSLA ===
+2026-06-27 17:43:56,851 - INFO - Fetching TSLA OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:43:56,932 - INFO - Fetched 21 trading days for TSLA
+2026-06-27 17:43:56,960 - INFO - Stored 21 OHLCV records for TSLA, skipped 0
+2026-06-27 17:43:56,960 - INFO - Completed TSLA
+
+2026-06-27 17:43:56,960 - INFO - === Processing META ===
+2026-06-27 17:43:56,960 - INFO - Fetching META OHLCV data from 2026-05-28 to 2026-06-27
+2026-06-27 17:43:57,063 - INFO - Fetched 21 trading days for META
+2026-06-27 17:43:57,101 - INFO - Stored 21 OHLCV records for META, skipped 0
+2026-06-27 17:43:57,101 - INFO - Completed META
+
+2026-06-27 17:43:57,101 - INFO - OHLCV fetch completed
+2026-06-27 18:10:57,390 - INFO - === Processing AAPL ===
+2026-06-27 18:10:57,400 - INFO - Data for AAPL is already up-to-date (latest date: 2026-06-26). Skipping fetch.
+2026-06-27 18:10:57,401 - INFO - === Processing GOOGL ===
+2026-06-27 18:10:57,402 - INFO - Data for GOOGL is already up-to-date (latest date: 2026-06-26). Skipping fetch.
+2026-06-27 18:10:57,403 - INFO - === Processing MSFT ===
+2026-06-27 18:10:57,404 - INFO - Data for MSFT is already up-to-date (latest date: 2026-06-26). Skipping fetch.
+2026-06-27 18:10:57,404 - INFO - === Processing TSLA ===
+2026-06-27 18:10:57,406 - INFO - Data for TSLA is already up-to-date (latest date: 2026-06-26). Skipping fetch.
+2026-06-27 18:10:57,406 - INFO - === Processing META ===
+2026-06-27 18:10:57,409 - INFO - Data for META is already up-to-date (latest date: 2026-06-26). Skipping fetch.
+2026-06-27 18:10:57,410 - INFO - OHLCV fetch completed
+2026-06-28 01:43:50,262 - INFO - === Processing AAPL ===
+2026-06-28 01:43:50,272 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:43:50,273 - INFO - Fetching AAPL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:43:50,985 - INFO - Fetched 1 trading days for AAPL
+2026-06-28 01:43:51,000 - INFO - Stored 1 OHLCV records for AAPL, skipped 0
+2026-06-28 01:43:51,001 - INFO - Completed AAPL
+
+2026-06-28 01:43:51,001 - INFO - === Processing GOOGL ===
+2026-06-28 01:43:51,003 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:43:51,003 - INFO - Fetching GOOGL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:43:51,102 - INFO - Fetched 1 trading days for GOOGL
+2026-06-28 01:43:51,115 - INFO - Stored 1 OHLCV records for GOOGL, skipped 0
+2026-06-28 01:43:51,115 - INFO - Completed GOOGL
+
+2026-06-28 01:43:51,115 - INFO - === Processing MSFT ===
+2026-06-28 01:43:51,117 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:43:51,117 - INFO - Fetching MSFT OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:43:51,222 - INFO - Fetched 1 trading days for MSFT
+2026-06-28 01:43:51,230 - INFO - Stored 1 OHLCV records for MSFT, skipped 0
+2026-06-28 01:43:51,230 - INFO - Completed MSFT
+
+2026-06-28 01:43:51,230 - INFO - === Processing TSLA ===
+2026-06-28 01:43:51,231 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:43:51,231 - INFO - Fetching TSLA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:43:51,311 - INFO - Fetched 1 trading days for TSLA
+2026-06-28 01:43:51,319 - INFO - Stored 1 OHLCV records for TSLA, skipped 0
+2026-06-28 01:43:51,319 - INFO - Completed TSLA
+
+2026-06-28 01:43:51,320 - INFO - === Processing META ===
+2026-06-28 01:43:51,321 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:43:51,321 - INFO - Fetching META OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:43:51,410 - INFO - Fetched 1 trading days for META
+2026-06-28 01:43:51,418 - INFO - Stored 1 OHLCV records for META, skipped 0
+2026-06-28 01:43:51,419 - INFO - Completed META
+
+2026-06-28 01:44:17,169 - INFO - === Processing AAPL ===
+2026-06-28 01:44:17,170 - INFO - Fetching NewsAPI articles for AAPL
+2026-06-28 01:44:18,084 - INFO - Fetched 72 articles for AAPL
+2026-06-28 01:44:18,085 - INFO - Fetching Finnhub news for AAPL
+2026-06-28 01:44:18,892 - INFO - Fetched 13 news items for AAPL
+2026-06-28 01:44:18,929 - INFO - Stored 12 new articles, skipped 1 duplicates
+2026-06-28 01:44:18,929 - INFO - Completed AAPL
+
+2026-06-28 01:44:18,929 - INFO - === Processing GOOGL ===
+2026-06-28 01:44:18,929 - INFO - Fetching NewsAPI articles for GOOGL
+2026-06-28 01:44:19,333 - INFO - Fetched 86 articles for GOOGL
+2026-06-28 01:44:19,333 - INFO - Fetching Finnhub news for GOOGL
+2026-06-28 01:44:19,682 - INFO - Fetched 29 news items for GOOGL
+2026-06-28 01:44:19,713 - INFO - Stored 21 new articles, skipped 9 duplicates
+2026-06-28 01:44:19,714 - INFO - Completed GOOGL
+
+2026-06-28 01:44:19,714 - INFO - === Processing MSFT ===
+2026-06-28 01:44:19,714 - INFO - Fetching NewsAPI articles for MSFT
+2026-06-28 01:44:20,407 - INFO - Fetched 100 articles for MSFT
+2026-06-28 01:44:20,408 - INFO - Fetching Finnhub news for MSFT
+2026-06-28 01:44:20,764 - INFO - Fetched 20 news items for MSFT
+2026-06-28 01:44:20,784 - INFO - Stored 9 new articles, skipped 11 duplicates
+2026-06-28 01:44:20,784 - INFO - Completed MSFT
+
+2026-06-28 01:46:11,775 - INFO - === Processing AAPL ===
+2026-06-28 01:46:11,785 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:46:11,785 - INFO - Fetching AAPL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:46:12,441 - INFO - Fetched 1 trading days for AAPL
+2026-06-28 01:46:12,460 - INFO - Stored 1 OHLCV records for AAPL, skipped 0
+2026-06-28 01:46:12,460 - INFO - Completed AAPL
+
+2026-06-28 01:46:12,460 - INFO - === Processing GOOGL ===
+2026-06-28 01:46:12,461 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:46:12,461 - INFO - Fetching GOOGL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:46:12,546 - INFO - Fetched 1 trading days for GOOGL
+2026-06-28 01:46:12,554 - INFO - Stored 1 OHLCV records for GOOGL, skipped 0
+2026-06-28 01:46:12,554 - INFO - Completed GOOGL
+
+2026-06-28 01:46:12,554 - INFO - === Processing MSFT ===
+2026-06-28 01:46:12,555 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:46:12,556 - INFO - Fetching MSFT OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:46:12,668 - INFO - Fetched 1 trading days for MSFT
+2026-06-28 01:46:12,677 - INFO - Stored 1 OHLCV records for MSFT, skipped 0
+2026-06-28 01:46:12,677 - INFO - Completed MSFT
+
+2026-06-28 01:46:12,677 - INFO - === Processing TSLA ===
+2026-06-28 01:46:12,678 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:46:12,679 - INFO - Fetching TSLA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:46:12,761 - INFO - Fetched 1 trading days for TSLA
+2026-06-28 01:46:12,767 - INFO - Stored 1 OHLCV records for TSLA, skipped 0
+2026-06-28 01:46:12,767 - INFO - Completed TSLA
+
+2026-06-28 01:46:12,767 - INFO - === Processing META ===
+2026-06-28 01:46:12,768 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:46:12,769 - INFO - Fetching META OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:46:12,856 - INFO - Fetched 1 trading days for META
+2026-06-28 01:46:12,864 - INFO - Stored 1 OHLCV records for META, skipped 0
+2026-06-28 01:46:12,864 - INFO - Completed META
+
+2026-06-28 01:46:12,865 - INFO - === Processing AAPL ===
+2026-06-28 01:46:12,865 - INFO - Fetching NewsAPI articles for AAPL
+2026-06-28 01:46:13,166 - INFO - Fetched 72 articles for AAPL
+2026-06-28 01:46:13,167 - INFO - Fetching Finnhub news for AAPL
+2026-06-28 01:46:13,802 - INFO - Fetched 13 news items for AAPL
+2026-06-28 01:46:13,815 - INFO - Stored 0 new articles, skipped 13 duplicates
+2026-06-28 01:46:13,816 - INFO - Completed AAPL
+
+2026-06-28 01:46:13,816 - INFO - === Processing GOOGL ===
+2026-06-28 01:46:13,816 - INFO - Fetching NewsAPI articles for GOOGL
+2026-06-28 01:46:14,088 - INFO - Fetched 86 articles for GOOGL
+2026-06-28 01:46:14,089 - INFO - Fetching Finnhub news for GOOGL
+2026-06-28 01:46:14,439 - INFO - Fetched 29 news items for GOOGL
+2026-06-28 01:46:14,457 - INFO - Stored 0 new articles, skipped 30 duplicates
+2026-06-28 01:46:14,458 - INFO - Completed GOOGL
+
+2026-06-28 01:46:14,458 - INFO - === Processing MSFT ===
+2026-06-28 01:46:14,458 - INFO - Fetching NewsAPI articles for MSFT
+2026-06-28 01:46:14,810 - INFO - Fetched 100 articles for MSFT
+2026-06-28 01:46:14,811 - INFO - Fetching Finnhub news for MSFT
+2026-06-28 01:46:15,151 - INFO - Fetched 20 news items for MSFT
+2026-06-28 01:46:15,170 - INFO - Stored 0 new articles, skipped 20 duplicates
+2026-06-28 01:46:15,171 - INFO - Completed MSFT
+
+2026-06-28 01:54:27,395 - INFO - === Processing AAPL ===
+2026-06-28 01:54:27,403 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:54:27,404 - INFO - Fetching AAPL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:54:28,032 - INFO - Fetched 1 trading days for AAPL
+2026-06-28 01:54:28,053 - INFO - Stored 1 OHLCV records for AAPL, skipped 0
+2026-06-28 01:54:28,053 - INFO - Completed AAPL
+
+2026-06-28 01:54:28,054 - INFO - === Processing GOOGL ===
+2026-06-28 01:54:28,055 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:54:28,055 - INFO - Fetching GOOGL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:54:28,139 - INFO - Fetched 1 trading days for GOOGL
+2026-06-28 01:54:28,147 - INFO - Stored 1 OHLCV records for GOOGL, skipped 0
+2026-06-28 01:54:28,147 - INFO - Completed GOOGL
+
+2026-06-28 01:54:28,147 - INFO - === Processing MSFT ===
+2026-06-28 01:54:28,148 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:54:28,148 - INFO - Fetching MSFT OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:54:28,255 - INFO - Fetched 1 trading days for MSFT
+2026-06-28 01:54:28,265 - INFO - Stored 1 OHLCV records for MSFT, skipped 0
+2026-06-28 01:54:28,267 - INFO - Completed MSFT
+
+2026-06-28 01:54:28,267 - INFO - === Processing TSLA ===
+2026-06-28 01:54:28,269 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:54:28,269 - INFO - Fetching TSLA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:54:28,343 - INFO - Fetched 1 trading days for TSLA
+2026-06-28 01:54:28,350 - INFO - Stored 1 OHLCV records for TSLA, skipped 0
+2026-06-28 01:54:28,350 - INFO - Completed TSLA
+
+2026-06-28 01:54:28,350 - INFO - === Processing META ===
+2026-06-28 01:54:28,352 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:54:28,352 - INFO - Fetching META OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:54:28,431 - INFO - Fetched 1 trading days for META
+2026-06-28 01:54:28,438 - INFO - Stored 1 OHLCV records for META, skipped 0
+2026-06-28 01:54:28,439 - INFO - Completed META
+
+2026-06-28 01:54:28,439 - INFO - === Processing NVDA ===
+2026-06-28 01:54:28,441 - INFO - No existing data for NVDA. Fetching default 30 days.
+2026-06-28 01:54:28,441 - INFO - Fetching NVDA OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:28,618 - INFO - Fetched 20 trading days for NVDA
+2026-06-28 01:54:28,646 - INFO - Stored 20 OHLCV records for NVDA, skipped 0
+2026-06-28 01:54:28,646 - INFO - Completed NVDA
+
+2026-06-28 01:54:28,646 - INFO - === Processing AMD ===
+2026-06-28 01:54:28,647 - INFO - No existing data for AMD. Fetching default 30 days.
+2026-06-28 01:54:28,647 - INFO - Fetching AMD OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:28,785 - INFO - Fetched 20 trading days for AMD
+2026-06-28 01:54:28,817 - INFO - Stored 20 OHLCV records for AMD, skipped 0
+2026-06-28 01:54:28,818 - INFO - Completed AMD
+
+2026-06-28 01:54:28,818 - INFO - === Processing INTC ===
+2026-06-28 01:54:28,819 - INFO - No existing data for INTC. Fetching default 30 days.
+2026-06-28 01:54:28,819 - INFO - Fetching INTC OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:29,034 - INFO - Fetched 20 trading days for INTC
+2026-06-28 01:54:29,061 - INFO - Stored 20 OHLCV records for INTC, skipped 0
+2026-06-28 01:54:29,061 - INFO - Completed INTC
+
+2026-06-28 01:54:29,061 - INFO - === Processing QCOM ===
+2026-06-28 01:54:29,062 - INFO - No existing data for QCOM. Fetching default 30 days.
+2026-06-28 01:54:29,062 - INFO - Fetching QCOM OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:29,289 - INFO - Fetched 20 trading days for QCOM
+2026-06-28 01:54:29,316 - INFO - Stored 20 OHLCV records for QCOM, skipped 0
+2026-06-28 01:54:29,316 - INFO - Completed QCOM
+
+2026-06-28 01:54:29,316 - INFO - === Processing CRM ===
+2026-06-28 01:54:29,317 - INFO - No existing data for CRM. Fetching default 30 days.
+2026-06-28 01:54:29,317 - INFO - Fetching CRM OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:29,473 - INFO - Fetched 20 trading days for CRM
+2026-06-28 01:54:29,501 - INFO - Stored 20 OHLCV records for CRM, skipped 0
+2026-06-28 01:54:29,501 - INFO - Completed CRM
+
+2026-06-28 01:54:29,501 - INFO - === Processing PYPL ===
+2026-06-28 01:54:29,502 - INFO - No existing data for PYPL. Fetching default 30 days.
+2026-06-28 01:54:29,502 - INFO - Fetching PYPL OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:29,653 - INFO - Fetched 20 trading days for PYPL
+2026-06-28 01:54:29,688 - INFO - Stored 20 OHLCV records for PYPL, skipped 0
+2026-06-28 01:54:29,688 - INFO - Completed PYPL
+
+2026-06-28 01:54:29,688 - INFO - === Processing SQ ===
+2026-06-28 01:54:29,689 - INFO - No existing data for SQ. Fetching default 30 days.
+2026-06-28 01:54:29,689 - INFO - Fetching SQ OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:30,220 - ERROR - $SQ: possibly delisted; no timezone found
+2026-06-28 01:54:30,220 - INFO - Fetched 0 trading days for SQ
+2026-06-28 01:54:30,221 - WARNING - No data to store for SQ
+2026-06-28 01:54:30,221 - INFO - Completed SQ
+
+2026-06-28 01:54:30,221 - INFO - === Processing COIN ===
+2026-06-28 01:54:30,222 - INFO - No existing data for COIN. Fetching default 30 days.
+2026-06-28 01:54:30,223 - INFO - Fetching COIN OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:30,366 - INFO - Fetched 20 trading days for COIN
+2026-06-28 01:54:30,396 - INFO - Stored 20 OHLCV records for COIN, skipped 0
+2026-06-28 01:54:30,396 - INFO - Completed COIN
+
+2026-06-28 01:54:30,396 - INFO - === Processing MSTR ===
+2026-06-28 01:54:30,397 - INFO - No existing data for MSTR. Fetching default 30 days.
+2026-06-28 01:54:30,398 - INFO - Fetching MSTR OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:30,543 - INFO - Fetched 20 trading days for MSTR
+2026-06-28 01:54:30,568 - INFO - Stored 20 OHLCV records for MSTR, skipped 0
+2026-06-28 01:54:30,568 - INFO - Completed MSTR
+
+2026-06-28 01:54:30,568 - INFO - === Processing SNOW ===
+2026-06-28 01:54:30,569 - INFO - No existing data for SNOW. Fetching default 30 days.
+2026-06-28 01:54:30,569 - INFO - Fetching SNOW OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:30,712 - INFO - Fetched 20 trading days for SNOW
+2026-06-28 01:54:30,750 - INFO - Stored 20 OHLCV records for SNOW, skipped 0
+2026-06-28 01:54:30,750 - INFO - Completed SNOW
+
+2026-06-28 01:54:30,750 - INFO - === Processing OKTA ===
+2026-06-28 01:54:30,753 - INFO - No existing data for OKTA. Fetching default 30 days.
+2026-06-28 01:54:30,753 - INFO - Fetching OKTA OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:30,902 - INFO - Fetched 20 trading days for OKTA
+2026-06-28 01:54:30,931 - INFO - Stored 20 OHLCV records for OKTA, skipped 0
+2026-06-28 01:54:30,931 - INFO - Completed OKTA
+
+2026-06-28 01:54:30,931 - INFO - === Processing NET ===
+2026-06-28 01:54:30,932 - INFO - No existing data for NET. Fetching default 30 days.
+2026-06-28 01:54:30,933 - INFO - Fetching NET OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:31,078 - INFO - Fetched 20 trading days for NET
+2026-06-28 01:54:31,106 - INFO - Stored 20 OHLCV records for NET, skipped 0
+2026-06-28 01:54:31,107 - INFO - Completed NET
+
+2026-06-28 01:54:31,107 - INFO - === Processing UBER ===
+2026-06-28 01:54:31,108 - INFO - No existing data for UBER. Fetching default 30 days.
+2026-06-28 01:54:31,108 - INFO - Fetching UBER OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:31,251 - INFO - Fetched 20 trading days for UBER
+2026-06-28 01:54:31,279 - INFO - Stored 20 OHLCV records for UBER, skipped 0
+2026-06-28 01:54:31,279 - INFO - Completed UBER
+
+2026-06-28 01:54:31,279 - INFO - === Processing AMZN ===
+2026-06-28 01:54:31,281 - INFO - No existing data for AMZN. Fetching default 30 days.
+2026-06-28 01:54:31,281 - INFO - Fetching AMZN OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:31,420 - INFO - Fetched 20 trading days for AMZN
+2026-06-28 01:54:31,445 - INFO - Stored 20 OHLCV records for AMZN, skipped 0
+2026-06-28 01:54:31,445 - INFO - Completed AMZN
+
+2026-06-28 01:54:31,446 - INFO - === Processing NFLX ===
+2026-06-28 01:54:31,446 - INFO - No existing data for NFLX. Fetching default 30 days.
+2026-06-28 01:54:31,447 - INFO - Fetching NFLX OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:54:31,578 - INFO - Fetched 20 trading days for NFLX
+2026-06-28 01:54:31,602 - INFO - Stored 20 OHLCV records for NFLX, skipped 0
+2026-06-28 01:54:31,602 - INFO - Completed NFLX
+
+2026-06-28 01:56:37,511 - INFO - === Processing AAPL ===
+2026-06-28 01:56:37,518 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:37,518 - INFO - Fetching AAPL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:38,165 - INFO - Fetched 1 trading days for AAPL
+2026-06-28 01:56:38,186 - INFO - Stored 1 OHLCV records for AAPL, skipped 0
+2026-06-28 01:56:38,187 - INFO - Completed AAPL
+
+2026-06-28 01:56:38,187 - INFO - === Processing GOOGL ===
+2026-06-28 01:56:38,189 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:38,189 - INFO - Fetching GOOGL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:38,272 - INFO - Fetched 1 trading days for GOOGL
+2026-06-28 01:56:38,280 - INFO - Stored 1 OHLCV records for GOOGL, skipped 0
+2026-06-28 01:56:38,280 - INFO - Completed GOOGL
+
+2026-06-28 01:56:38,280 - INFO - === Processing MSFT ===
+2026-06-28 01:56:38,281 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:38,282 - INFO - Fetching MSFT OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:38,391 - INFO - Fetched 1 trading days for MSFT
+2026-06-28 01:56:38,398 - INFO - Stored 1 OHLCV records for MSFT, skipped 0
+2026-06-28 01:56:38,398 - INFO - Completed MSFT
+
+2026-06-28 01:56:38,399 - INFO - === Processing TSLA ===
+2026-06-28 01:56:38,400 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:38,401 - INFO - Fetching TSLA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:38,486 - INFO - Fetched 1 trading days for TSLA
+2026-06-28 01:56:38,493 - INFO - Stored 1 OHLCV records for TSLA, skipped 0
+2026-06-28 01:56:38,493 - INFO - Completed TSLA
+
+2026-06-28 01:56:38,493 - INFO - === Processing META ===
+2026-06-28 01:56:38,498 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:38,498 - INFO - Fetching META OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:38,579 - INFO - Fetched 1 trading days for META
+2026-06-28 01:56:38,590 - INFO - Stored 1 OHLCV records for META, skipped 0
+2026-06-28 01:56:38,590 - INFO - Completed META
+
+2026-06-28 01:56:38,590 - INFO - === Processing NVDA ===
+2026-06-28 01:56:38,592 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:38,592 - INFO - Fetching NVDA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:38,690 - INFO - Fetched 1 trading days for NVDA
+2026-06-28 01:56:38,698 - INFO - Stored 1 OHLCV records for NVDA, skipped 0
+2026-06-28 01:56:38,698 - INFO - Completed NVDA
+
+2026-06-28 01:56:38,698 - INFO - === Processing AMD ===
+2026-06-28 01:56:38,699 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:38,699 - INFO - Fetching AMD OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:38,777 - INFO - Fetched 1 trading days for AMD
+2026-06-28 01:56:38,785 - INFO - Stored 1 OHLCV records for AMD, skipped 0
+2026-06-28 01:56:38,785 - INFO - Completed AMD
+
+2026-06-28 01:56:38,786 - INFO - === Processing INTC ===
+2026-06-28 01:56:38,787 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:38,788 - INFO - Fetching INTC OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:38,908 - INFO - Fetched 1 trading days for INTC
+2026-06-28 01:56:38,917 - INFO - Stored 1 OHLCV records for INTC, skipped 0
+2026-06-28 01:56:38,917 - INFO - Completed INTC
+
+2026-06-28 01:56:38,917 - INFO - === Processing QCOM ===
+2026-06-28 01:56:38,918 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:38,918 - INFO - Fetching QCOM OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:39,023 - INFO - Fetched 1 trading days for QCOM
+2026-06-28 01:56:39,031 - INFO - Stored 1 OHLCV records for QCOM, skipped 0
+2026-06-28 01:56:39,032 - INFO - Completed QCOM
+
+2026-06-28 01:56:39,032 - INFO - === Processing CRM ===
+2026-06-28 01:56:39,033 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:39,033 - INFO - Fetching CRM OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:39,106 - INFO - Fetched 1 trading days for CRM
+2026-06-28 01:56:39,112 - INFO - Stored 1 OHLCV records for CRM, skipped 0
+2026-06-28 01:56:39,112 - INFO - Completed CRM
+
+2026-06-28 01:56:39,113 - INFO - === Processing PYPL ===
+2026-06-28 01:56:39,114 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:39,114 - INFO - Fetching PYPL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:39,192 - INFO - Fetched 1 trading days for PYPL
+2026-06-28 01:56:39,200 - INFO - Stored 1 OHLCV records for PYPL, skipped 0
+2026-06-28 01:56:39,200 - INFO - Completed PYPL
+
+2026-06-28 01:56:39,200 - INFO - === Processing SQ ===
+2026-06-28 01:56:39,202 - INFO - No existing data for SQ. Fetching default 30 days.
+2026-06-28 01:56:39,202 - INFO - Fetching SQ OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 01:56:39,712 - ERROR - $SQ: possibly delisted; no timezone found
+2026-06-28 01:56:39,713 - INFO - Fetched 0 trading days for SQ
+2026-06-28 01:56:39,714 - WARNING - No data to store for SQ
+2026-06-28 01:56:39,714 - INFO - Completed SQ
+
+2026-06-28 01:56:39,715 - INFO - === Processing COIN ===
+2026-06-28 01:56:39,716 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:39,716 - INFO - Fetching COIN OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:39,793 - INFO - Fetched 1 trading days for COIN
+2026-06-28 01:56:39,812 - INFO - Stored 1 OHLCV records for COIN, skipped 0
+2026-06-28 01:56:39,812 - INFO - Completed COIN
+
+2026-06-28 01:56:39,812 - INFO - === Processing MSTR ===
+2026-06-28 01:56:39,814 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:39,814 - INFO - Fetching MSTR OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:39,894 - INFO - Fetched 1 trading days for MSTR
+2026-06-28 01:56:39,902 - INFO - Stored 1 OHLCV records for MSTR, skipped 0
+2026-06-28 01:56:39,902 - INFO - Completed MSTR
+
+2026-06-28 01:56:39,902 - INFO - === Processing SNOW ===
+2026-06-28 01:56:39,903 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:39,905 - INFO - Fetching SNOW OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:39,978 - INFO - Fetched 1 trading days for SNOW
+2026-06-28 01:56:39,984 - INFO - Stored 1 OHLCV records for SNOW, skipped 0
+2026-06-28 01:56:39,984 - INFO - Completed SNOW
+
+2026-06-28 01:56:39,984 - INFO - === Processing OKTA ===
+2026-06-28 01:56:39,986 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:39,986 - INFO - Fetching OKTA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:40,064 - INFO - Fetched 1 trading days for OKTA
+2026-06-28 01:56:40,071 - INFO - Stored 1 OHLCV records for OKTA, skipped 0
+2026-06-28 01:56:40,071 - INFO - Completed OKTA
+
+2026-06-28 01:56:40,072 - INFO - === Processing NET ===
+2026-06-28 01:56:40,073 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:40,073 - INFO - Fetching NET OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:40,148 - INFO - Fetched 1 trading days for NET
+2026-06-28 01:56:40,159 - INFO - Stored 1 OHLCV records for NET, skipped 0
+2026-06-28 01:56:40,160 - INFO - Completed NET
+
+2026-06-28 01:56:40,160 - INFO - === Processing UBER ===
+2026-06-28 01:56:40,161 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:40,161 - INFO - Fetching UBER OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:40,243 - INFO - Fetched 1 trading days for UBER
+2026-06-28 01:56:40,255 - INFO - Stored 1 OHLCV records for UBER, skipped 0
+2026-06-28 01:56:40,255 - INFO - Completed UBER
+
+2026-06-28 01:56:40,255 - INFO - === Processing AMZN ===
+2026-06-28 01:56:40,256 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:40,256 - INFO - Fetching AMZN OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:40,333 - INFO - Fetched 1 trading days for AMZN
+2026-06-28 01:56:40,340 - INFO - Stored 1 OHLCV records for AMZN, skipped 0
+2026-06-28 01:56:40,340 - INFO - Completed AMZN
+
+2026-06-28 01:56:40,341 - INFO - === Processing NFLX ===
+2026-06-28 01:56:40,342 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 01:56:40,342 - INFO - Fetching NFLX OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 01:56:40,416 - INFO - Fetched 1 trading days for NFLX
+2026-06-28 01:56:40,422 - INFO - Stored 1 OHLCV records for NFLX, skipped 0
+2026-06-28 01:56:40,422 - INFO - Completed NFLX
+

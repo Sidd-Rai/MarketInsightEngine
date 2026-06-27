@@ -2,52 +2,41 @@
 import yfinance as yf
 from datetime import datetime, timedelta
 from sqlalchemy.orm import Session
-from database import engine, OHLCV, Base
+from src.db.database import engine, OHLCV, Base
 import logging
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
+from src.config import (
+    OHLCV_TICKERS,
+    OHLCV_RETRY_TOTAL,
+    OHLCV_RETRY_BACKOFF,
+    OHLCV_STATUS_FORCELIST,
+    OHLCV_LOG_PATH
+)
 
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('fetch_ohlcv.log'),
+        logging.FileHandler(OHLCV_LOG_PATH),
         logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
 
-TICKERS = ["AAPL", "GOOGL", "MSFT", "TSLA", "META"]
-
-# def fetch_ohlcv_data(ticker, days=30):
-#     """
-#     Fetch OHLCV data from yfinance
-    
-#     Args:
-#         ticker: Stock symbol
-#         days: How many days back to fetch
-    
-#     Returns:
-#         DataFrame with OHLCV data
-#     """
-#     try:
-#         end_date = datetime.now()
-#         start_date = end_date - timedelta(days=days)
-        
-#         logger.info(f"Fetching {ticker} OHLCV data from {start_date.date()} to {end_date.date()}")
-        
-#         # Download data
-#         data = yf.download(
-#             ticker,
-#             start=start_date.strftime("%Y-%m-%d"),
-#             end=end_date.strftime("%Y-%m-%d"),
-#             progress=False  # Don't print download progress
-#         )
-        
-#         logger.info(f"Fetched {len(data)} trading days for {ticker}")
-#         return data
-        
-#     except Exception as e:
-#         logger.error(f"Failed to fetch {ticker}: {e}")
-#         return None
+# Configure HTTP session with retries for yfinance requests
+http_session = requests.Session()
+http_session.headers.update({
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+})
+retries = Retry(
+    total=OHLCV_RETRY_TOTAL,
+    backoff_factor=OHLCV_RETRY_BACKOFF,
+    status_forcelist=OHLCV_STATUS_FORCELIST
+)
+http_session.mount("http://", HTTPAdapter(max_retries=retries))
+http_session.mount("https://", HTTPAdapter(max_retries=retries))
 
 def fetch_ohlcv_data(ticker, days=30):
     """
@@ -66,9 +55,8 @@ def fetch_ohlcv_data(ticker, days=30):
         
         logger.info(f"Fetching {ticker} OHLCV data from {start_date.date()} to {end_date.date()}")
         
-        # FIX: Use yf.Ticker().history() instead of yf.download() 
-        # to prevent the Pandas MultiIndex 'Series' error.
-        stock = yf.Ticker(ticker)
+        # Use yf.Ticker().history() with HTTPAdapter retry support
+        stock = yf.Ticker(ticker, session=http_session)
         data = stock.history(
             start=start_date.strftime("%Y-%m-%d"),
             end=end_date.strftime("%Y-%m-%d")
@@ -139,11 +127,29 @@ def main():
     session = Session(bind=engine)
     
     try:
-        for ticker in TICKERS:
+        for ticker in OHLCV_TICKERS:
             logger.info(f"=== Processing {ticker} ===")
             
-            # Fetch OHLCV data
-            df = fetch_ohlcv_data(ticker, days=30)
+            # Check latest date in database
+            latest_record = session.query(OHLCV).filter(
+                OHLCV.ticker == ticker
+            ).order_by(OHLCV.date.desc()).first()
+            
+            if latest_record:
+                latest_date = latest_record.date.date() if hasattr(latest_record.date, "date") else latest_record.date
+                start_date = latest_date + timedelta(days=1)
+                end_date = datetime.now().date()
+                
+                if start_date >= end_date:
+                    logger.info(f"Data for {ticker} is already up-to-date (latest date: {latest_date}). Skipping fetch.")
+                    continue
+                
+                days_to_fetch = (end_date - latest_date).days
+                logger.info(f"Latest record date is {latest_date}. Fetching last {days_to_fetch} days.")
+                df = fetch_ohlcv_data(ticker, days=days_to_fetch)
+            else:
+                logger.info(f"No existing data for {ticker}. Fetching default 30 days.")
+                df = fetch_ohlcv_data(ticker, days=30)
             
             # Store to database
             store_ohlcv_to_db(ticker, df, session)

@@ -1,0 +1,75 @@
+2026-06-26 00:09:07,268 - INFO - === Processing AAPL ===
+2026-06-26 00:09:07,269 - INFO - Fetching NewsAPI articles for AAPL
+2026-06-26 00:09:09,771 - INFO - Fetched 43 articles for AAPL
+2026-06-26 00:09:09,773 - INFO - Fetching Finnhub news for AAPL
+2026-06-26 00:09:10,403 - INFO - Fetched 62 news items for AAPL
+2026-06-26 00:09:10,484 - INFO - Stored 62 new articles, skipped 0 duplicates
+2026-06-26 00:09:10,484 - INFO - Completed AAPL
+
+2026-06-26 00:09:10,485 - INFO - === Processing GOOGL ===
+2026-06-26 00:09:10,485 - INFO - Fetching NewsAPI articles for GOOGL
+2026-06-26 00:09:13,429 - INFO - Fetched 71 articles for GOOGL
+2026-06-26 00:09:13,431 - INFO - Fetching Finnhub news for GOOGL
+2026-06-26 00:09:14,143 - INFO - Fetched 68 news items for GOOGL
+2026-06-26 00:09:14,214 - INFO - Stored 62 new articles, skipped 7 duplicates
+2026-06-26 00:09:14,214 - INFO - Completed GOOGL
+
+2026-06-26 00:09:14,214 - INFO - === Processing MSFT ===
+2026-06-26 00:09:14,215 - INFO - Fetching NewsAPI articles for MSFT
+2026-06-26 00:09:18,142 - INFO - Fetched 72 articles for MSFT
+2026-06-26 00:09:18,144 - INFO - Fetching Finnhub news for MSFT
+2026-06-26 00:09:18,779 - INFO - Fetched 61 news items for MSFT
+2026-06-26 00:09:18,850 - INFO - Stored 40 new articles, skipped 21 duplicates
+2026-06-26 00:09:18,850 - INFO - Completed MSFT
+
+2026-06-26 00:09:18,850 - INFO - News fetch completed
+2026-06-27 17:24:47,719 - INFO - === Processing AAPL ===
+2026-06-27 17:24:47,730 - INFO - Fetching NewsAPI articles for AAPL
+2026-06-27 17:24:48,462 - INFO - Fetched 71 articles for AAPL
+2026-06-27 17:24:48,463 - INFO - Fetching Finnhub news for AAPL
+2026-06-27 17:24:49,149 - INFO - Fetched 1 news items for AAPL
+2026-06-27 17:24:49,179 - INFO - Stored 1 new articles, skipped 0 duplicates
+2026-06-27 17:24:49,179 - INFO - Completed AAPL
+
+2026-06-27 17:24:49,179 - INFO - === Processing GOOGL ===
+2026-06-27 17:24:49,179 - INFO - Fetching NewsAPI articles for GOOGL
+2026-06-27 17:24:49,638 - INFO - Fetched 89 articles for GOOGL
+2026-06-27 17:24:49,639 - INFO - Fetching Finnhub news for GOOGL
+2026-06-27 17:24:50,090 - INFO - Fetched 6 news items for GOOGL
+2026-06-27 17:24:50,114 - INFO - Stored 7 new articles, skipped 1 duplicates
+2026-06-27 17:24:50,114 - INFO - Completed GOOGL
+
+2026-06-27 17:24:50,114 - INFO - === Processing MSFT ===
+2026-06-27 17:24:50,115 - INFO - Fetching NewsAPI articles for MSFT
+2026-06-27 17:24:50,708 - INFO - Fetched 100 articles for MSFT
+2026-06-27 17:24:50,708 - INFO - Fetching Finnhub news for MSFT
+2026-06-27 17:24:51,046 - INFO - Fetched 4 news items for MSFT
+2026-06-27 17:24:51,067 - INFO - Stored 2 new articles, skipped 2 duplicates
+2026-06-27 17:24:51,067 - INFO - Completed MSFT
+
+2026-06-27 17:24:51,068 - INFO - News fetch completed
+2026-06-27 17:28:16,477 - INFO - === Processing AAPL ===
+2026-06-27 17:28:16,477 - INFO - Fetching NewsAPI articles for AAPL
+2026-06-27 17:28:17,160 - INFO - Fetched 71 articles for AAPL
+2026-06-27 17:28:17,160 - INFO - Fetching Finnhub news for AAPL
+2026-06-27 17:28:17,863 - INFO - Fetched 1 news items for AAPL
+2026-06-27 17:28:17,874 - INFO - Stored 0 new articles, skipped 1 duplicates
+2026-06-27 17:28:17,875 - INFO - Completed AAPL
+
+2026-06-27 17:28:17,875 - INFO - === Processing GOOGL ===
+2026-06-27 17:28:17,875 - INFO - Fetching NewsAPI articles for GOOGL
+2026-06-27 17:28:18,238 - INFO - Fetched 89 articles for GOOGL
+2026-06-27 17:28:18,238 - INFO - Fetching Finnhub news for GOOGL
+2026-06-27 17:28:18,587 - INFO - Fetched 6 news items for GOOGL
+2026-06-27 17:28:18,594 - INFO - Stored 0 new articles, skipped 8 duplicates
+2026-06-27 17:28:18,594 - INFO - Completed GOOGL
+
+2026-06-27 17:28:18,595 - INFO - === Processing MSFT ===
+2026-06-27 17:28:18,595 - INFO - Fetching NewsAPI articles for MSFT
+2026-06-27 17:28:18,956 - INFO - Fetched 100 articles for MSFT
+2026-06-27 17:28:18,956 - INFO - Fetching Finnhub news for MSFT
+2026-06-27 17:28:19,295 - INFO - Fetched 4 news items for MSFT
+2026-06-27 17:28:19,300 - INFO - Stored 0 new articles, skipped 4 duplicates
+2026-06-27 17:28:19,300 - INFO - Completed MSFT
+
+2026-06-27 17:28:19,301 - INFO - News fetch completed

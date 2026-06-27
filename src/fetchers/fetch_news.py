@@ -3,29 +3,41 @@ import os
 import requests
 import json
 from datetime import datetime, timedelta
-from dotenv import load_dotenv
 from sqlalchemy.orm import Session
-from database import engine, Article, Base
+from src.db.database import engine, Article, Base
 import logging
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
+from src.config import (
+    NEWSAPI_KEY,
+    FINNHUB_KEY,
+    NEWS_TICKERS,
+    NEWS_RETRY_TOTAL,
+    NEWS_RETRY_BACKOFF,
+    NEWS_STATUS_FORCELIST,
+    NEWS_LOG_PATH
+)
 
 # Setup logging to track what happens
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('fetch_news.log'),
+        logging.FileHandler(NEWS_LOG_PATH),
         logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
 
-# Load API keys
-load_dotenv()
-NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
-FINNHUB_KEY = os.getenv("FINNHUB_KEY")
-
-# Target tickers
-TICKERS = ["AAPL", "GOOGL", "MSFT"]
+# Configure HTTP session with retries
+http_session = requests.Session()
+retries = Retry(
+    total=NEWS_RETRY_TOTAL,
+    backoff_factor=NEWS_RETRY_BACKOFF,
+    status_forcelist=NEWS_STATUS_FORCELIST
+)
+http_session.mount("http://", HTTPAdapter(max_retries=retries))
+http_session.mount("https://", HTTPAdapter(max_retries=retries))
 
 def fetch_news_from_newsapi(ticker, days=7):
     """
@@ -55,7 +67,7 @@ def fetch_news_from_newsapi(ticker, days=7):
     
     try:
         logger.info(f"Fetching NewsAPI articles for {ticker}")
-        response = requests.get(url, params=params, timeout=10)
+        response = http_session.get(url, params=params, timeout=10)
         response.raise_for_status()
         
         data = response.json()
@@ -92,7 +104,7 @@ def fetch_news_from_finnhub(ticker):
     
     try:
         logger.info(f"Fetching Finnhub news for {ticker}")
-        response = requests.get(url, params=params, timeout=10)
+        response = http_session.get(url, params=params, timeout=10)
         response.raise_for_status()
         
         news_items = response.json()
@@ -215,7 +227,7 @@ def main():
     session = Session(bind=engine)
     
     try:
-        for ticker in TICKERS:
+        for ticker in NEWS_TICKERS:
             logger.info(f"=== Processing {ticker} ===")
             
             # Fetch from both sources
