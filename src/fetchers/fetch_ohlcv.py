@@ -80,7 +80,7 @@ def store_ohlcv_to_db(ticker, df, session):
     """
     if df is None or df.empty:
         logger.warning(f"No data to store for {ticker}")
-        return
+        return 0, 0
     
     stored_count = 0
     skipped_count = 0
@@ -118,46 +118,58 @@ def store_ohlcv_to_db(ticker, df, session):
     try:
         session.commit()
         logger.info(f"Stored {stored_count} OHLCV records for {ticker}, skipped {skipped_count}")
+        return stored_count, skipped_count
     except Exception as e:
         session.rollback()
         logger.error(f"Database commit failed: {e}")
+        return 0, 0
 
 def main():
     """Fetch and store OHLCV data for all tickers"""
     session = Session(bind=engine)
+    summary = {}
     
     try:
         for ticker in OHLCV_TICKERS:
             logger.info(f"=== Processing {ticker} ===")
-            
-            # Check latest date in database
-            latest_record = session.query(OHLCV).filter(
-                OHLCV.ticker == ticker
-            ).order_by(OHLCV.date.desc()).first()
-            
-            if latest_record:
-                latest_date = latest_record.date.date() if hasattr(latest_record.date, "date") else latest_record.date
-                start_date = latest_date + timedelta(days=1)
-                end_date = datetime.now().date()
+            try:
+                # Check latest date in database
+                latest_record = session.query(OHLCV).filter(
+                    OHLCV.ticker == ticker
+                ).order_by(OHLCV.date.desc()).first()
                 
-                if start_date >= end_date:
-                    logger.info(f"Data for {ticker} is already up-to-date (latest date: {latest_date}). Skipping fetch.")
-                    continue
+                if latest_record:
+                    latest_date = latest_record.date.date() if hasattr(latest_record.date, "date") else latest_record.date
+                    start_date = latest_date + timedelta(days=1)
+                    end_date = datetime.now().date()
+                    
+                    if start_date >= end_date:
+                        logger.info(f"Data for {ticker} is already up-to-date (latest date: {latest_date}). Skipping fetch.")
+                        summary[ticker] = {"status": "up-to-date", "stored": 0, "skipped": 0, "msg": f"Already up-to-date (latest: {latest_date})"}
+                        continue
+                    
+                    days_to_fetch = (end_date - latest_date).days
+                    logger.info(f"Latest record date is {latest_date}. Fetching last {days_to_fetch} days.")
+                    df = fetch_ohlcv_data(ticker, days=days_to_fetch)
+                else:
+                    logger.info(f"No existing data for {ticker}. Fetching default 30 days.")
+                    df = fetch_ohlcv_data(ticker, days=30)
                 
-                days_to_fetch = (end_date - latest_date).days
-                logger.info(f"Latest record date is {latest_date}. Fetching last {days_to_fetch} days.")
-                df = fetch_ohlcv_data(ticker, days=days_to_fetch)
-            else:
-                logger.info(f"No existing data for {ticker}. Fetching default 30 days.")
-                df = fetch_ohlcv_data(ticker, days=30)
-            
-            # Store to database
-            store_ohlcv_to_db(ticker, df, session)
+                # Store to database
+                if df is not None and not df.empty:
+                    stored, skipped = store_ohlcv_to_db(ticker, df, session)
+                    summary[ticker] = {"status": "success", "stored": stored, "skipped": skipped, "msg": f"Stored {stored}, skipped {skipped}"}
+                else:
+                    summary[ticker] = {"status": "warning", "stored": 0, "skipped": 0, "msg": "No data returned from API"}
+            except Exception as e:
+                logger.error(f"Error processing {ticker}: {e}")
+                summary[ticker] = {"status": "failed", "stored": 0, "skipped": 0, "msg": str(e)}
             
             logger.info(f"Completed {ticker}\n")
     
     finally:
         session.close()
+    return summary
 
 if __name__ == "__main__":
     main()

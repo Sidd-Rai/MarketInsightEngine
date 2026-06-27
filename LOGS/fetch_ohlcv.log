@@ -701,3 +701,143 @@
 2026-06-28 01:56:40,422 - INFO - Stored 1 OHLCV records for NFLX, skipped 0
 2026-06-28 01:56:40,422 - INFO - Completed NFLX
 
+2026-06-28 02:38:36,649 - INFO - === Processing AAPL ===
+2026-06-28 02:38:36,657 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:36,657 - INFO - Fetching AAPL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:37,282 - INFO - Fetched 1 trading days for AAPL
+2026-06-28 02:38:37,302 - INFO - Stored 1 OHLCV records for AAPL, skipped 0
+2026-06-28 02:38:37,302 - INFO - Completed AAPL
+
+2026-06-28 02:38:37,302 - INFO - === Processing GOOGL ===
+2026-06-28 02:38:37,304 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:37,304 - INFO - Fetching GOOGL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:37,390 - INFO - Fetched 1 trading days for GOOGL
+2026-06-28 02:38:37,397 - INFO - Stored 1 OHLCV records for GOOGL, skipped 0
+2026-06-28 02:38:37,397 - INFO - Completed GOOGL
+
+2026-06-28 02:38:37,398 - INFO - === Processing MSFT ===
+2026-06-28 02:38:37,399 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:37,399 - INFO - Fetching MSFT OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:37,501 - INFO - Fetched 1 trading days for MSFT
+2026-06-28 02:38:37,511 - INFO - Stored 1 OHLCV records for MSFT, skipped 0
+2026-06-28 02:38:37,512 - INFO - Completed MSFT
+
+2026-06-28 02:38:37,512 - INFO - === Processing TSLA ===
+2026-06-28 02:38:37,514 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:37,514 - INFO - Fetching TSLA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:37,592 - INFO - Fetched 1 trading days for TSLA
+2026-06-28 02:38:37,600 - INFO - Stored 1 OHLCV records for TSLA, skipped 0
+2026-06-28 02:38:37,601 - INFO - Completed TSLA
+
+2026-06-28 02:38:37,601 - INFO - === Processing META ===
+2026-06-28 02:38:37,604 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:37,605 - INFO - Fetching META OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:37,687 - INFO - Fetched 1 trading days for META
+2026-06-28 02:38:37,696 - INFO - Stored 1 OHLCV records for META, skipped 0
+2026-06-28 02:38:37,697 - INFO - Completed META
+
+2026-06-28 02:38:37,697 - INFO - === Processing NVDA ===
+2026-06-28 02:38:37,699 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:37,699 - INFO - Fetching NVDA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:37,795 - INFO - Fetched 1 trading days for NVDA
+2026-06-28 02:38:37,802 - INFO - Stored 1 OHLCV records for NVDA, skipped 0
+2026-06-28 02:38:37,802 - INFO - Completed NVDA
+
+2026-06-28 02:38:37,802 - INFO - === Processing AMD ===
+2026-06-28 02:38:37,804 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:37,804 - INFO - Fetching AMD OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:37,881 - INFO - Fetched 1 trading days for AMD
+2026-06-28 02:38:37,893 - INFO - Stored 1 OHLCV records for AMD, skipped 0
+2026-06-28 02:38:37,893 - INFO - Completed AMD
+
+2026-06-28 02:38:37,893 - INFO - === Processing INTC ===
+2026-06-28 02:38:37,895 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:37,895 - INFO - Fetching INTC OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:38,025 - INFO - Fetched 1 trading days for INTC
+2026-06-28 02:38:38,037 - INFO - Stored 1 OHLCV records for INTC, skipped 0
+2026-06-28 02:38:38,037 - INFO - Completed INTC
+
+2026-06-28 02:38:38,037 - INFO - === Processing QCOM ===
+2026-06-28 02:38:38,039 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:38,039 - INFO - Fetching QCOM OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:38,146 - INFO - Fetched 1 trading days for QCOM
+2026-06-28 02:38:38,157 - INFO - Stored 1 OHLCV records for QCOM, skipped 0
+2026-06-28 02:38:38,157 - INFO - Completed QCOM
+
+2026-06-28 02:38:38,157 - INFO - === Processing CRM ===
+2026-06-28 02:38:38,159 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:38,159 - INFO - Fetching CRM OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:38,241 - INFO - Fetched 1 trading days for CRM
+2026-06-28 02:38:38,252 - INFO - Stored 1 OHLCV records for CRM, skipped 0
+2026-06-28 02:38:38,253 - INFO - Completed CRM
+
+2026-06-28 02:38:38,253 - INFO - === Processing PYPL ===
+2026-06-28 02:38:38,254 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:38,255 - INFO - Fetching PYPL OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:38,336 - INFO - Fetched 1 trading days for PYPL
+2026-06-28 02:38:38,344 - INFO - Stored 1 OHLCV records for PYPL, skipped 0
+2026-06-28 02:38:38,345 - INFO - Completed PYPL
+
+2026-06-28 02:38:38,345 - INFO - === Processing SQ ===
+2026-06-28 02:38:38,346 - INFO - No existing data for SQ. Fetching default 30 days.
+2026-06-28 02:38:38,346 - INFO - Fetching SQ OHLCV data from 2026-05-29 to 2026-06-28
+2026-06-28 02:38:38,989 - ERROR - $SQ: possibly delisted; no timezone found
+2026-06-28 02:38:38,991 - INFO - Fetched 0 trading days for SQ
+2026-06-28 02:38:38,991 - INFO - Completed SQ
+
+2026-06-28 02:38:38,992 - INFO - === Processing COIN ===
+2026-06-28 02:38:38,994 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:38,994 - INFO - Fetching COIN OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:39,074 - INFO - Fetched 1 trading days for COIN
+2026-06-28 02:38:39,093 - INFO - Stored 1 OHLCV records for COIN, skipped 0
+2026-06-28 02:38:39,093 - INFO - Completed COIN
+
+2026-06-28 02:38:39,094 - INFO - === Processing MSTR ===
+2026-06-28 02:38:39,095 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:39,096 - INFO - Fetching MSTR OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:39,185 - INFO - Fetched 1 trading days for MSTR
+2026-06-28 02:38:39,193 - INFO - Stored 1 OHLCV records for MSTR, skipped 0
+2026-06-28 02:38:39,193 - INFO - Completed MSTR
+
+2026-06-28 02:38:39,193 - INFO - === Processing SNOW ===
+2026-06-28 02:38:39,194 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:39,195 - INFO - Fetching SNOW OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:39,273 - INFO - Fetched 1 trading days for SNOW
+2026-06-28 02:38:39,279 - INFO - Stored 1 OHLCV records for SNOW, skipped 0
+2026-06-28 02:38:39,280 - INFO - Completed SNOW
+
+2026-06-28 02:38:39,280 - INFO - === Processing OKTA ===
+2026-06-28 02:38:39,281 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:39,281 - INFO - Fetching OKTA OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:39,354 - INFO - Fetched 1 trading days for OKTA
+2026-06-28 02:38:39,360 - INFO - Stored 1 OHLCV records for OKTA, skipped 0
+2026-06-28 02:38:39,360 - INFO - Completed OKTA
+
+2026-06-28 02:38:39,360 - INFO - === Processing NET ===
+2026-06-28 02:38:39,361 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:39,361 - INFO - Fetching NET OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:39,434 - INFO - Fetched 1 trading days for NET
+2026-06-28 02:38:39,440 - INFO - Stored 1 OHLCV records for NET, skipped 0
+2026-06-28 02:38:39,440 - INFO - Completed NET
+
+2026-06-28 02:38:39,440 - INFO - === Processing UBER ===
+2026-06-28 02:38:39,442 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:39,442 - INFO - Fetching UBER OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:39,515 - INFO - Fetched 1 trading days for UBER
+2026-06-28 02:38:39,520 - INFO - Stored 1 OHLCV records for UBER, skipped 0
+2026-06-28 02:38:39,520 - INFO - Completed UBER
+
+2026-06-28 02:38:39,520 - INFO - === Processing AMZN ===
+2026-06-28 02:38:39,522 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:39,523 - INFO - Fetching AMZN OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:39,596 - INFO - Fetched 1 trading days for AMZN
+2026-06-28 02:38:39,601 - INFO - Stored 1 OHLCV records for AMZN, skipped 0
+2026-06-28 02:38:39,603 - INFO - Completed AMZN
+
+2026-06-28 02:38:39,604 - INFO - === Processing NFLX ===
+2026-06-28 02:38:39,606 - INFO - Latest record date is 2026-06-26. Fetching last 2 days.
+2026-06-28 02:38:39,606 - INFO - Fetching NFLX OHLCV data from 2026-06-26 to 2026-06-28
+2026-06-28 02:38:39,685 - INFO - Fetched 1 trading days for NFLX
+2026-06-28 02:38:39,693 - INFO - Stored 1 OHLCV records for NFLX, skipped 0
+2026-06-28 02:38:39,694 - INFO - Completed NFLX
+

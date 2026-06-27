@@ -218,42 +218,50 @@ def store_articles_to_db(articles, session):
     try:
         session.commit()
         logger.info(f"Stored {stored_count} new articles, skipped {skipped_count} duplicates")
+        return stored_count, skipped_count
     except Exception as e:
         session.rollback()
         logger.error(f"Database commit failed: {e}")
+        return 0, 0
 
 def main():
     """Orchestrate the full news fetch pipeline"""
     session = Session(bind=engine)
+    summary = {}
     
     try:
         for ticker in NEWS_TICKERS:
             logger.info(f"=== Processing {ticker} ===")
-            
-            # Fetch from both sources
-            newsapi_articles = fetch_news_from_newsapi(ticker)
-            finnhub_news = fetch_news_from_finnhub(ticker)
-            
-            # Parse and validate NewsAPI articles
-            parsed_newsapi = [
-                parse_and_validate_newsapi_article(art, ticker)
-                for art in newsapi_articles
-            ]
-            
-            # Parse and validate Finnhub news
-            parsed_finnhub = [
-                parse_and_validate_finnhub_news(news, ticker)
-                for news in finnhub_news
-            ]
-            
-            # Combine and store
-            all_articles = parsed_newsapi + parsed_finnhub
-            store_articles_to_db(all_articles, session)
+            try:
+                # Fetch from both sources
+                newsapi_articles = fetch_news_from_newsapi(ticker)
+                finnhub_news = fetch_news_from_finnhub(ticker)
+                
+                # Parse and validate NewsAPI articles
+                parsed_newsapi = [
+                    parse_and_validate_newsapi_article(art, ticker)
+                    for art in newsapi_articles
+                ]
+                
+                # Parse and validate Finnhub news
+                parsed_finnhub = [
+                    parse_and_validate_finnhub_news(news, ticker)
+                    for news in finnhub_news
+                ]
+                
+                # Combine and store
+                all_articles = parsed_newsapi + parsed_finnhub
+                stored, skipped = store_articles_to_db(all_articles, session)
+                summary[ticker] = {"status": "success", "stored": stored, "skipped": skipped, "msg": f"Stored {stored}, skipped {skipped}"}
+            except Exception as e:
+                logger.error(f"Error processing {ticker}: {e}")
+                summary[ticker] = {"status": "failed", "stored": 0, "skipped": 0, "msg": str(e)}
             
             logger.info(f"Completed {ticker}\n")
     
     finally:
         session.close()
+    return summary
 
 if __name__ == "__main__":
     main()
